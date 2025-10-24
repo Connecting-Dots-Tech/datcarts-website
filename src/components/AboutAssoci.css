@@ -1,0 +1,64 @@
+.AboutAssoci-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../assets/bgherodesk.svg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 1rem;
+}
+.associated-org {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.brand-org {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.img-cover {
+  width: 15rem;
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #072e14;
+  border-radius: 10px;
+}
+
+.img-cover img {
+  width: 11rem;
+  height: auto;
+  border-radius: 10px;
+}
+.brand-cover {
+  width: 15rem;
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #072e14;
+  border-radius: 10px;
+}
+
+.brand-cover img {
+  width: 11rem;
+  height: auto;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .AboutAssoci-wrapper {
+    background: url("../assets/bgheromob.svg");
+  }
+}
