@@ -11,6 +11,12 @@
   padding: 3rem 0;
   gap: 1rem;
 }
+.associated-title{
+    /* font-size: 2.5rem; */
+    font-weight: 700;
+    /* color: #072e14; */
+    text-align: center;
+}
 .associated-org {
   display: flex;
   flex-wrap: wrap;
