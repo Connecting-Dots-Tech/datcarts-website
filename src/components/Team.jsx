@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 import "./Team.css";
 
 const teamMembers = [
@@ -18,14 +18,14 @@ const teamMembers = [
   },
   {
     name: "ABHISHEK RAJ",
-    role: "CSO",
+    role: "CRO",
     desc: "3 YEARS IN CIVIL ENGINEERING. 8 YEARS AS AN ENTREPRENEUR",
     img: "/assets/team/abhishek.png",
     roleColor: "#FFD600",
   },
   {
     name: "K S KURIAN",
-    role: "CTO",
+    role: "CSO",
     desc: "8+ YEARS EXPERIENCE IN TECHNOLOGY SECTOR",
     img: "/assets/team/kurian.png",
     roleColor: "#FFD600",
@@ -35,6 +35,13 @@ const teamMembers = [
     role: "CMO",
     desc: "7+ YEARS IN FILM & MEDIA INDUSTRY AS CINEMATOGRAPHER",
     img: "/assets/team/abin.png",
+    roleColor: "#FFD600",
+  },
+  {
+    name: "KRISHNA BABUJI",
+    role: "CTO",
+    desc: "7+ Years in Technology sector",
+    img: "/assets/team/kbabuji.png",
     roleColor: "#FFD600",
   },
 ];
@@ -54,12 +61,19 @@ const Team = () => (
     <div className="team-cards">
       {teamMembers.map((member, idx) => (
         <div className="team-card" key={idx}>
-          <img src={member.img} alt={member.name} className="team-img" />
+          <div className="team-img-wrapper">
+            <Image
+              src={member.img}
+              alt={member.name}
+              fill
+              className="team-img"
+            />
+          </div>
           <div className="team-name">{member.name}</div>
           <div className="team-role" style={{ color: member.roleColor }}>
             {member.role}
           </div>
-          <div className="team-bio">{member.desc}</div>
+          {/* <div className="team-bio">{member.desc}</div> */}
         </div>
       ))}
     </div>

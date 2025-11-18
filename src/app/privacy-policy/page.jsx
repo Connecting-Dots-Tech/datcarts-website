@@ -204,6 +204,13 @@ export default function PrivacyPolicy() {
                 Officer are provided below:
               </p>
               <p>
+                <b>Name:</b> Nevin Michael<br/>
+                <b>Designation:</b> Managing Director<br/>
+                <b>Address:</b> C/O  CONNECTING DOTS TECH VENTURES PRIVATE LIMITED <br/>
+                3/494G, Mettungal, Manakkapady, Ernakulam - 683520<br/>
+                <b>E-mail:</b> connectingdotstech@hotmail.com<br/>
+              </p>
+              <p>
                 You can reach our customer support team to address any of your
                 queries or complaints related to our services.
               </p>

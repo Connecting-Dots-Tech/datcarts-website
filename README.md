@@ -6,7 +6,7 @@ It focuses on providing a clean, fast, and user-friendly experience with well-st
 ---
 
 ## 🌐 Live Demo  
-[👉 View Website](https://datcartslatest.vercel.app)  
+[👉 View Website](datcarts-website.vercel.app)  
 
 
 ## 🧩 Tech Stack  
@@ -14,7 +14,7 @@ It focuses on providing a clean, fast, and user-friendly experience with well-st
 - **Styling:** CSS  
 - **Build Tool:** Create React App  
 - **Version Control:** Git + GitHub  
-- **Deployment:** Vercel  
+- **Deployment:** Vercel
 
 ---
 
@@ -33,13 +33,14 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/abhicplash/datcartslatest.git
+git clone git@github.com:Connecting-Dots-Tech/datcarts-website.git
 
 # Navigate into the project folder
-cd datcartslatest
+cd datcarts-website
 
 # Install dependencies
 npm install
 
 # Start the development server
-npm start
+npm run dev
+```
