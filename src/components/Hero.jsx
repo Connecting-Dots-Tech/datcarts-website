@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.css";
-import cartimg from '../assets/cart.png'
 
 const Hero = () => {
   return (
@@ -11,7 +10,7 @@ const Hero = () => {
         <p className="hero-description">
           Enhancing Shopping Boosting Efficiency Driving Profit
         </p>
-        <img src={cartimg} alt="Shopping Cart" className="hero-cart-img" />
+        <img src="/assets/cart.png" alt="Shopping Cart" className="hero-cart-img" />
       </div>
     </div>
   );

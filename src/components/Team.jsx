@@ -1,45 +1,40 @@
 import React from "react";
 import "./Team.css";
-import adharsh from '../assets/team/adharsh.png'
-import abhishek from '../assets/team/abhishek.png'
-import nevin from '../assets/team/nevin.png'
-import kurian from '../assets/team/kurian.png'
-import abin from '../assets/team/abin.png'
 
 const teamMembers = [
   {
     name: "ADARSH B",
     role: "CEO",
     desc: "4 YEARS IN SALES. 7 YEARS AS ENTREPRENEUR",
-    img: adharsh,
+    img: "/assets/team/adharsh.png",
     roleColor: "#FFD600",
   },
   {
     name: "NEVIN MICHAEL",
     role: "CFO",
     desc: "6 YEARS EXPERIENCE AS HEAD OF OPERATIONS IN TECHNOLOGY COMPANIES AND VC FIRMS",
-    img: nevin,
+    img: "/assets/team/nevin.png",
     roleColor: "#FFD600",
   },
   {
     name: "ABHISHEK RAJ",
     role: "CSO",
     desc: "3 YEARS IN CIVIL ENGINEERING. 8 YEARS AS AN ENTREPRENEUR",
-    img: abhishek,
+    img: "/assets/team/abhishek.png",
     roleColor: "#FFD600",
   },
   {
     name: "K S KURIAN",
     role: "CTO",
     desc: "8+ YEARS EXPERIENCE IN TECHNOLOGY SECTOR",
-    img: kurian,
+    img: "/assets/team/kurian.png",
     roleColor: "#FFD600",
   },
   {
     name: "ABIN M P",
     role: "CMO",
     desc: "7+ YEARS IN FILM & MEDIA INDUSTRY AS CINEMATOGRAPHER",
-    img: abin,
+    img: "/assets/team/abin.png",
     roleColor: "#FFD600",
   },
 ];

@@ -1,7 +1,7 @@
 .AboutAssoci-wrapper {
   width: 100%;
   min-height: 100vh;
-  background: url("../assets/bgherodesk.svg");
+  background: url("/assets/bgherodesk.svg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -65,6 +65,6 @@
 }
 @media (max-width: 768px) {
   .AboutAssoci-wrapper {
-    background: url("../assets/bgheromob.svg");
+    background: url("/assets/bgheromob.svg");
   }
 }

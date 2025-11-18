@@ -1,6 +1,5 @@
 import React from "react";
 import "./Brand.css";
-import cartImg from "../assets/sid trolly 1.svg";
 
 const Brand = () => (
   <section className="brand-section">
@@ -56,7 +55,7 @@ const Brand = () => (
         </ul>
       </div>
       <div className="brand-image-block">
-        <img src={cartImg} alt="Smart Cart" className="brand-cart-img" />
+        <img src="/assets/sidtrolly1.svg" alt="Smart Cart" className="brand-cart-img" />
         <div className="brand-success-card">
           <div className="brand-success-title">BRAND SUCCESS STORY</div>
           <div className="brand-success-desc">

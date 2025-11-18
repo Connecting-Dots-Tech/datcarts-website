@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../assets/Herobg.jpg");
+  background: url("/assets/Herobg.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@
   left: 0;
   width: 100%;
   min-height: 60vh;
-  background: url("../assets/bgherodesk.svg");
+  background: url("/assets/bgherodesk.svg");
   opacity: 0.8;
   background-position: center;
   background-size: cover;

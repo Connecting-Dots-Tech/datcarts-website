@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+'use client'
+
+import { useState } from "react";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
 import {
@@ -8,35 +10,32 @@ import {
   FaYoutube,
   FaLinkedinIn,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import logo from "../assets/Logo.png";
+import Link from "next/link";
 
 const Navbar = () => {
   const [view, setView] = useState(false);
 
   return (
     <nav className="navbar">
-      {/* <h2>Datcarts</h2> */}
-      <img src={logo} alt="Datcarts Logo" className="navLogo" />
+      <img src="/assets/Logo.png" alt="Datcarts Logo" className="navLogo" />
       <div className="nav-icon" onClick={() => setView(!view)}>
         <FaBars />
       </div>
       {view ? (
         <ul className="listMob">
-          <Link to="/" className="navigation">
+          <Link href="/" className="navigation">
             <li>Home</li>
           </Link>
-          <Link to="/about" className="navigation">
+          <Link href="/about" className="navigation">
             <li>About Us</li>
           </Link>
-          <Link to="/legal" className="navigation">
+          <Link href="/legal" className="navigation">
             <li>Legal Privacy</li>
           </Link>
-          <Link to="/contact" className="navigation">
+          <Link href="/contact" className="navigation">
             <li>Contact Us</li>
           </Link>
           <li>
-            {" "}
             <div className="footer-social">
               <a href="#">
                 <FaFacebookF />
@@ -58,16 +57,19 @@ const Navbar = () => {
         </ul>
       ) : null}
       <ul className="list-desk">
-        <Link to="/" className="desk-list-navigation">
+        <Link href="/" className="desk-list-navigation">
           <li>Home</li>
         </Link>
-        <Link to="/about" className="desk-list-navigation">
+        <Link href="/about" className="desk-list-navigation">
           <li>About Us</li>
         </Link>
-        <Link to="/legal" className="desk-list-navigation">
-          <li>Legal Privacy</li>
+        <Link href="/privacy-policy" className="desk-list-navigation">
+          <li>Privacy Policy</li>
         </Link>
-        <Link to="/contact" className="desk-list-navigation">
+        <Link href="/terms-and-conditions" className="desk-list-navigation">
+          <li>Terms and Conditions</li>
+        </Link>
+        <Link href="/contact" className="desk-list-navigation">
           <li>Contact Us</li>
         </Link>
       </ul>

@@ -30,7 +30,7 @@
   right: 0;
   list-style: none;
   height: 100vh;
-  background: url("../assets/bgnav.svg");
+  background: url("/assets/bgnav.svg");
   /* background-color: red; */
   text-align: center;
   padding: 3rem 0;
