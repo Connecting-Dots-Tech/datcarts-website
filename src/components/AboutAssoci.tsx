@@ -1,4 +1,3 @@
-import React from "react";
 import "./AboutAssoci.css";
 
 const AboutAssoci = () => {

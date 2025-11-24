@@ -1,4 +1,3 @@
-import React from "react";
 import "./Features.css";
 import { FaChartBar, FaCogs, FaStream, FaChartPie } from "react-icons/fa";
 import {
@@ -92,7 +91,7 @@ const Features = () => (
     {/* Growth Roadmap */}
     <div className="roadmap-section">
       <h3 className="roadmap-title">GROWTH ROADMAP</h3>
-      <div className="feature-divide"></div>
+      <div className="feature-divide" />
       <div className="roadmap-list">
         {roadmap.map((item, idx) => (
           <div className="roadmap-item" key={idx}>
@@ -133,7 +132,9 @@ const Features = () => (
         to learn more about investment opportunities and how you can be a part
         of the DATCARTS success story.
       </div>
-      <button className="investor-cta-btn">Explore Investment Opportunities</button>
+      <button className="investor-cta-btn">
+        Explore Investment Opportunities
+      </button>
     </div>
   </section>
 );

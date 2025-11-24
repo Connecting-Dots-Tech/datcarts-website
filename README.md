@@ -5,29 +5,31 @@ It focuses on providing a clean, fast, and user-friendly experience with well-st
 
 ---
 
-## 🌐 Live Demo  
-[👉 View Website](datcarts-website.vercel.app)  
+## 🌐 Live Demo
 
+[👉 View Website](datcarts-website.vercel.app)
 
-## 🧩 Tech Stack  
-- **Frontend:** React.js  
-- **Styling:** CSS  
-- **Build Tool:** Create React App  
-- **Version Control:** Git + GitHub  
+## 🧩 Tech Stack
+
+- **Frontend:** React.js
+- **Styling:** CSS
+- **Build Tool:** Create React App
+- **Version Control:** Git + GitHub
 - **Deployment:** Vercel
 
 ---
 
-## 🚀 Features  
-- Responsive design across all devices  
-- Clean and minimal UI  
-- Fast load performance  
-- Easy to customize and extend  
-- Developed with reusable React components  
+## 🚀 Features
+
+- Responsive design across all devices
+- Clean and minimal UI
+- Fast load performance
+- Easy to customize and extend
+- Developed with reusable React components
 
 ---
 
-## ⚙️ Installation & Setup  
+## ⚙️ Installation & Setup
 
 Follow these steps to run the project locally:
 

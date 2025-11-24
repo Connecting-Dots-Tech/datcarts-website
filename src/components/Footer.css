@@ -185,31 +185,31 @@
     background: url("/assets/footerheromob.svg");
     background-size: cover;
   }
-  
+
   .footer-left {
     flex-direction: column;
     width: 85%;
   }
-  
+
   .footer-desc-exact {
     text-align: left;
     margin-top: 0.5rem;
   }
-  
+
   .footer-divide {
     width: 85%;
   }
-  
+
   .footer-links {
     flex-direction: column;
     gap: 1.5rem;
     width: 85%;
   }
-  
+
   .newsletter {
     width: 100%;
   }
-  
+
   .footer-bottom {
     flex-direction: column;
     justify-content: center;

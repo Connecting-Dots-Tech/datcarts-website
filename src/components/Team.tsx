@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image.js";
 import "./Team.css";
 
 const teamMembers = [
@@ -23,13 +23,13 @@ const teamMembers = [
     img: "/assets/team/abhishek.png",
     roleColor: "#FFD600",
   },
-  {
-    name: "K S KURIAN",
-    role: "CSO",
-    desc: "8+ YEARS EXPERIENCE IN TECHNOLOGY SECTOR",
-    img: "/assets/team/kurian.png",
-    roleColor: "#FFD600",
-  },
+  // {
+  //   name: "K S KURIAN",
+  //   role: "CSO",
+  //   desc: "8+ YEARS EXPERIENCE IN TECHNOLOGY SECTOR",
+  //   img: "/assets/team/kurian.png",
+  //   roleColor: "#FFD600",
+  // },
   {
     name: "ABIN M P",
     role: "CMO",

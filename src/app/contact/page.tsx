@@ -1,14 +1,22 @@
-'use client'
+"use client";
 
-import { useState } from "react";
+import { useState, type ChangeEvent } from "react";
 import "./Contact.css";
 import { GrLocation } from "react-icons/gr";
 import { BsTelephone } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
-import PageTop from "../../components/PageTop";
+import PageTop from "../../components/PageTop.js";
+
+interface FormData {
+  name: string;
+  number: string;
+  email: string;
+  subject: string;
+  message: string;
+}
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: "",
     number: "",
     email: "",
@@ -16,7 +24,9 @@ export default function Contact() {
     message: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
@@ -129,7 +139,7 @@ export default function Contact() {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Message"
-              ></textarea>
+              />
               <button type="button" onClick={handleSendMessage}>
                 Send your message
               </button>

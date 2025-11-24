@@ -1,11 +1,11 @@
-import '../index.css'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import "../index.css";
+import Navbar from "../components/Navbar.js";
+import Footer from "../components/Footer.js";
 
 export const metadata = {
-  title: 'Datcarts',
-  description: 'Marketing website for Datcarts',
-}
+  title: "Datcarts",
+  description: "Marketing website for Datcarts",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -16,5 +16,5 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
-  )
+  );
 }

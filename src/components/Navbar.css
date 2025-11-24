@@ -10,15 +10,20 @@
   position: absolute;
   top: 0;
 }
-.navLogo{
+.navLogo {
   width: 10rem;
 }
 .nav-icon {
   font-size: 1.5rem;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   display: none;
+}
+.nav-icon:focus {
+  outline: 2px solid;
+  outline-offset: 2px;
 }
 .listMob {
   display: none;
@@ -57,7 +62,8 @@
 .desk-list-navigation {
   text-decoration: none;
   color: #fff;
-  font-weight: 200;font-size: 0.85rem;
+  font-weight: 200;
+  font-size: 0.85rem;
 }
 @media (max-width: 768px) {
   .nav-icon {

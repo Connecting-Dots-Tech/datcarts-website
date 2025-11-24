@@ -1,6 +1,5 @@
-import React from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./Footer.js";
+import Navbar from "./Navbar.js";
 
 const Layout = ({ children }) => {
   return (

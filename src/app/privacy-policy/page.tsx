@@ -1,18 +1,34 @@
-import PageTop from "../../components/PageTop";
+import PageTop from "../../components/PageTop.js";
 import "./legal.css";
 
 const RelatedQuestions = () => (
   <nav className="legal-related" aria-label="Related questions">
     <h3>Related Questions</h3>
     <ul>
-      <li><a href="#your-privacy">Your privacy</a></li>
-      <li><a href="#what-info">What information do we collect</a></li>
-      <li><a href="#sharing">Sharing your personal information</a></li>
-      <li><a href="#returns">Accessing personal information</a></li>
-      <li><a href="#Protection-information">Protection of information</a></li>
-      <li><a href="#consent-information">Consent on data usage</a></li>
-      <li><a href="#Legal-Enforcement">Legal enforcement</a></li>
-      <li><a href="#policy-changes">Policy changes</a></li>
+      <li>
+        <a href="#your-privacy">Your privacy</a>
+      </li>
+      <li>
+        <a href="#what-info">What information do we collect</a>
+      </li>
+      <li>
+        <a href="#sharing">Sharing your personal information</a>
+      </li>
+      <li>
+        <a href="#returns">Accessing personal information</a>
+      </li>
+      <li>
+        <a href="#Protection-information">Protection of information</a>
+      </li>
+      <li>
+        <a href="#consent-information">Consent on data usage</a>
+      </li>
+      <li>
+        <a href="#Legal-Enforcement">Legal enforcement</a>
+      </li>
+      <li>
+        <a href="#policy-changes">Policy changes</a>
+      </li>
     </ul>
   </nav>
 );
@@ -37,13 +53,13 @@ export default function PrivacyPolicy() {
               <h1>Your Privacy</h1>
               <p>
                 This Privacy Policy describes how Connecting Dots Tech Ventures
-                Private Limited collects, uses, shares or otherwise processes your
-                personal data through datcarts.com website and datcarts mobile
-                application. By visiting/using our website and downloading/using
-                our mobile application, and providing your information or
-                availing our service, you expressly agree to be bound by the
-                terms and conditions of this Privacy Policy. If you do not
-                agree, please do not use or access our website and mobile
+                Private Limited collects, uses, shares or otherwise processes
+                your personal data through datcarts.com website and datcarts
+                mobile application. By visiting/using our website and
+                downloading/using our mobile application, and providing your
+                information or availing our service, you expressly agree to be
+                bound by the terms and conditions of this Privacy Policy. If you
+                do not agree, please do not use or access our website and mobile
                 application.
               </p>
             </section>
@@ -128,9 +144,8 @@ export default function PrivacyPolicy() {
                 Our website and app may include third-party advertising and
                 links to other websites and apps. Third-party advertising
                 partners may collect information about you when you interact
-                with their content, advertising, and services and you can
-                visit such third party links and websites at your own risk and
-                choice.
+                with their content, advertising, and services and you can visit
+                such third party links and websites at your own risk and choice.
               </p>
               <p>
                 From time to time this website may also include links to other
@@ -162,9 +177,9 @@ export default function PrivacyPolicy() {
                 amalgamation, restructuring or insolvency resolution of our
                 company, user information and account related information will
                 be one of the transferred assets. Should such a transaction
-                occur, another business entity (or the new combined entity)
-                will be required to follow this Privacy Policy with respect to
-                your personal information and user data.
+                occur, another business entity (or the new combined entity) will
+                be required to follow this Privacy Policy with respect to your
+                personal information and user data.
               </p>
             </section>
 
@@ -204,11 +219,16 @@ export default function PrivacyPolicy() {
                 Officer are provided below:
               </p>
               <p>
-                <b>Name:</b> Nevin Michael<br/>
-                <b>Designation:</b> Managing Director<br/>
-                <b>Address:</b> C/O  CONNECTING DOTS TECH VENTURES PRIVATE LIMITED <br/>
-                3/494G, Mettungal, Manakkapady, Ernakulam - 683520<br/>
-                <b>E-mail:</b> connectingdotstech@hotmail.com<br/>
+                <b>Name:</b> Nevin Michael
+                <br />
+                <b>Designation:</b> Managing Director
+                <br />
+                <b>Address:</b> C/O CONNECTING DOTS TECH VENTURES PRIVATE
+                LIMITED <br />
+                3/494G, Mettungal, Manakkapady, Ernakulam - 683520
+                <br />
+                <b>E-mail:</b> connectingdotstech@hotmail.com
+                <br />
               </p>
               <p>
                 You can reach our customer support team to address any of your
@@ -224,12 +244,12 @@ export default function PrivacyPolicy() {
             <section id="policy-changes" className="legal-section">
               <h2>Policy Changes</h2>
               <p>
-                Please check our Privacy Policy periodically for changes. We
-                may update this Privacy Policy depending on changes to our
+                Please check our Privacy Policy periodically for changes. We may
+                update this Privacy Policy depending on changes to our
                 information collection practices or to comply with any mandatory
                 requirement of law. We will notify you of any changes by posting
-                the new Privacy Policy on this page and updating the "Last Updated"
-                date at the top of this Privacy Policy.
+                the new Privacy Policy on this page and updating the "Last
+                Updated" date at the top of this Privacy Policy.
               </p>
             </section>
           </main>
