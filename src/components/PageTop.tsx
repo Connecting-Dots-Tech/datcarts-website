@@ -1,11 +1,10 @@
 import "./PageTop.css";
-import { ReactNode } from "react";
 
-interface LayoutProps {
-  children: ReactNode; // ReactNode is the recommended type for children
+interface PageTopProps {
+  pageName: string;
 }
 
-const PageTop = ({ pageName }: LayoutProps) => {
+const PageTop = ({ pageName }: PageTopProps) => {
   return (
     <div className="PageTop-container">
       <div className="PageTop-Shadow" />

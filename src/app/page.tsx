@@ -1,5 +1,5 @@
-import Hero from "../components/Hero.js";
-import Brand from "../components/Brand.js";
+import Hero from "../components/Hero";
+import Brand from "../components/Brand";
 
 export default function Home() {
   return (

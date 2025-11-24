@@ -1,4 +1,4 @@
-import Image from "next/image.js";
+import Image from "next/image";
 import "./Team.css";
 
 const teamMembers = [

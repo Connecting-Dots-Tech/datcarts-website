@@ -1,4 +1,4 @@
-import PageTop from "../../components/PageTop.js";
+import PageTop from "../../components/PageTop";
 import "../privacy-policy/legal.css";
 
 const RelatedQuestions = () => (

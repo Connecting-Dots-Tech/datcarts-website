@@ -1,6 +1,6 @@
 import "../index.css";
-import Navbar from "../components/Navbar.js";
-import Footer from "../components/Footer.js";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export const metadata = {
   title: "Datcarts",

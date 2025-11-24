@@ -1,6 +1,6 @@
-import PageTop from "../../components/PageTop.js";
-import Team from "../../components/Team.js";
-import AboutAssoci from "../../components/AboutAssoci.js";
+import PageTop from "../../components/PageTop";
+import Team from "../../components/Team";
+import AboutAssoci from "../../components/AboutAssoci";
 
 export default function About() {
   return (

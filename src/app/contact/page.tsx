@@ -5,7 +5,7 @@ import "./Contact.css";
 import { GrLocation } from "react-icons/gr";
 import { BsTelephone } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
-import PageTop from "../../components/PageTop.js";
+import PageTop from "../../components/PageTop";
 
 interface FormData {
   name: string;
