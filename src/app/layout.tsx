@@ -1,5 +1,6 @@
+// src/app/layout.tsx
 import type { Metadata } from "next";
-import "../index.css";
+import "../index.css"; // Changed from output.css
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import React from "react";
@@ -15,10 +16,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className="overflow-x-hidden">
+      <body className="overflow-x-hidden">
+        {/* Navbar is positioned absolutely, so it overlays content */}
         <Navbar />
-        {children}
+
+        {/* Main content needs top padding to account for absolute navbar */}
+        <main className="min-h-screen w-full overflow-x-hidden">
+          {children}
+        </main>
+
         <Footer />
       </body>
     </html>

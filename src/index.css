@@ -1,22 +1,71 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-black: #0a0a0b;
+  --color-green: #03ab47;
+  --color-gold: #b7a221;
+
+  /* Font Family */
+  --font-family-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
-  /* font-family: "Sora", sans-serif; */
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif; */
+  padding: 0;
+  font-family: var(--font-family-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0a0a0b;
+  background-color: var(--color-black);
   color: #fff;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 code {
   font-family:
     source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-:root {
-  --black: #0a0a0b;
-  --green: #03ab47;
+
+/* Prevent layout shift and overflow */
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#__next {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Custom animations */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 1s ease-out 0.5s forwards;
+  opacity: 0; /* Start invisible */
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus visible styles for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--color-green);
+  outline-offset: 2px;
 }
