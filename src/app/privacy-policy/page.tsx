@@ -290,10 +290,10 @@ export default function PrivacyPolicy() {
                     E-mail:
                   </strong>{" "}
                   <a
-                    href="mailto:connectingdotstech@hotmail.com"
+                    href="mailto:legal@datcarts.com"
                     className="text-[#b7a221] transition-colors hover:text-[#d4c42e] hover:underline"
                   >
-                    connectingdotstech@hotmail.com
+                    legal@datcarts.com
                   </a>
                 </p>
               </div>

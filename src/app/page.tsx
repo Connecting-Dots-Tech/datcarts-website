@@ -1,11 +1,13 @@
 import Hero from "../components/Hero";
-import Brand from "../components/Brand";
+import TrustBar from "../components/TrustBar";
+import CaseStudies from "../components/CaseStudies";
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <Hero />
-      <Brand />
+      <TrustBar />
+      <CaseStudies />
     </div>
   );
 }

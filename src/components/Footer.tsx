@@ -17,7 +17,7 @@ const LEGAL_LINKS = [
 
 const CONTACT_INFO = {
   address: ["Mettungal, Manakkapady", "Ernakulam, Kerala 683520"],
-  email: "connectingdotstech@hotmail.com",
+  email: "info@datcarts.com",
   phone: "+91 790 777 2742",
 } as const;
 
@@ -27,7 +27,11 @@ const SOCIAL_LINKS = [
     href: "https://www.instagram.com/datcarts/",
     label: "Instagram",
   },
-  { icon: FaYoutube, href: "#", label: "YouTube" },
+  {
+    icon: FaYoutube,
+    href: "https://www.youtube.com/@DATCARTS",
+    label: "YouTube",
+  },
   {
     icon: FaLinkedinIn,
     href: "https://www.linkedin.com/company/connecting-dots-tech-venture/",

@@ -38,7 +38,7 @@ const CONTACT_INFO = [
   {
     icon: MdOutlineEmail,
     title: "Email Us",
-    content: "connectingdotstech@hotmail.com",
+    content: "info@datcarts.com",
     textColor: "text-white",
     iconSize: "text-4xl",
   },

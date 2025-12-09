@@ -1,13 +1,11 @@
-import PageTop from "../../components/PageTop";
-import Team from "../../components/Team";
-import AboutAssoci from "../../components/AboutAssoci";
+import MissionSection from "../../components/MissionSection";
+import LeadershipSection from "../../components/Team";
 
 export default function About() {
   return (
-    <>
-      <PageTop pageName={"About Us"} />
-      <Team />
-      <AboutAssoci />
-    </>
+    <main className="w-full overflow-x-hidden">
+      <MissionSection />
+      <LeadershipSection />
+    </main>
   );
 }

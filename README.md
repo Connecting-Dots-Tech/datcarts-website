@@ -1,7 +1,6 @@
 # 🛒 DatCarts
 
-**DatCarts** is a modern and responsive website built using **React.js** and **CSS**.  
-It focuses on providing a clean, fast, and user-friendly experience with well-structured code and simple styling.
+Datcarts-website is the main marketing site for Datcarts.
 
 ---
 
@@ -11,23 +10,10 @@ It focuses on providing a clean, fast, and user-friendly experience with well-st
 
 ## 🧩 Tech Stack
 
-- **Frontend:** React.js
-- **Styling:** CSS
-- **Build Tool:** Create React App
+- **Frontend:** [Nextjs](https://nextjs.org/)
+- **Styling:** [Tailwind](https://tailwindcss.com/)
 - **Version Control:** Git + GitHub
 - **Deployment:** Vercel
-
----
-
-## 🚀 Features
-
-- Responsive design across all devices
-- Clean and minimal UI
-- Fast load performance
-- Easy to customize and extend
-- Developed with reusable React components
-
----
 
 ## ⚙️ Installation & Setup
 

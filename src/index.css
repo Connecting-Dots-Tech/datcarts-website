@@ -3,8 +3,23 @@
 @theme {
   /* Brand Colors */
   --color-black: #0a0a0b;
+  --color-black-light: #121314;
+  --color-gray: #9a9a9a;
+  --color-gray-light: #e5e5e5;
+
   --color-green: #03ab47;
+  --color-green-dark: #028b3b;
+
   --color-gold: #b7a221;
+  --color-gold-light: #d4c87a;
+
+  --layout-width-sm: 640px;
+  --layout-width-md: 768px;
+  --layout-width-lg: 1024px;
+  --layout-width-xl: 1280px;
+
+  /* --space-section: 6rem; top-level section padding */
+  /* --space-container: 1.5rem; side padding for mobile */
 
   /* Font Family */
   --font-family-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
@@ -12,7 +27,11 @@
 
 /* Base Styles */
 * {
-  box-sizing: border-box;
+  transition:
+    color 0.2s ease,
+    background 0.2s ease,
+    border 0.2s ease,
+    opacity 0.2s ease;
 }
 
 body {
@@ -37,6 +56,18 @@ html {
   width: 100%;
 }
 
+h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
 #__next {
   width: 100%;
   overflow-x: hidden;
@@ -59,9 +90,24 @@ html {
   opacity: 0; /* Start invisible */
 }
 
-/* Smooth scrolling for anchor links */
-html {
-  scroll-behavior: smooth;
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1.2s ease-out forwards;
+  opacity: 0;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
 }
 
 /* Focus visible styles for accessibility */
