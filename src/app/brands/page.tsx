@@ -8,7 +8,7 @@ export default function Brands() {
         <div className="relative mx-auto max-w-screen-xl px-6 grid lg:grid-cols-2 gap-16 items-center">
           {/* Left - Text */}
           <div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
+            <h1 className="text-gray-lighter text-4xl md:text-5xl font-semibold leading-tight">
               The "Last Mile" of Advertising.
             </h1>
             <p className="mt-6 text-lg text-[var(--color-gold)] max-w-lg">
@@ -21,7 +21,9 @@ export default function Brands() {
       {/* Why Datcarts */}
       <section className="py-20 border-t border-white/10 bg-[var(--color-black-light)]">
         <div className="mx-auto max-w-screen-xl px-6">
-          <h2 className="text-3xl font-semibold mb-10">Why Datcarts?</h2>
+          <h2 className="text-gray-lighter text-3xl font-semibold mb-10">
+            Why Datcarts?
+          </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -56,7 +58,9 @@ export default function Brands() {
       {/* Campaign Types */}
       <section className="py-24">
         <div className="mx-auto max-w-screen-xl px-6">
-          <h2 className="text-3xl font-semibold mb-10">Campaign Types</h2>
+          <h2 className="text-gray-lighter text-3xl font-semibold mb-10">
+            Campaign Types
+          </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -136,7 +140,7 @@ export default function Brands() {
       {/* CTA Section */}
       <section className="py-24 px-6 bg-gradient-to-b from-black/80 to-black">
         <div className="mx-auto max-w-screen-md text-center">
-          <h2 className="text-3xl font-semibold mb-6">
+          <h2 className="text-gray-lighter text-3xl font-semibold mb-6">
             Ready to take your digital advertising approach further?
           </h2>
           <p className="text-white/70 mb-10 max-w-xl mx-auto">

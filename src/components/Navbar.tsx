@@ -30,7 +30,7 @@ const Navbar = () => {
           className="relative h-16 w-40 flex-shrink-0 md:h-20 md:w-48"
         >
           <Image
-            src="/assets/Logo_03.png"
+            src="/assets/Logo_03.webp"
             fill
             className="object-contain object-left"
             alt="DatCarts Logo"

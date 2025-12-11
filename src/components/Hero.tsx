@@ -40,6 +40,7 @@ export default function Hero() {
                   "Turn carts into modern, high-margin media assets",
                 ]}
                 href="/retailers"
+                cta="See Retailer Benefits"
               />
 
               <PersonaCard
@@ -51,6 +52,7 @@ export default function Hero() {
                   "Maximize ROI with transparent real-time analytics",
                 ]}
                 href="/brands"
+                cta="See Brand Solutions"
               />
             </div>
           </div>
@@ -73,37 +75,42 @@ export default function Hero() {
     </header>
   );
 }
-
 function PersonaCard({
   title,
   subtitle,
   bullets,
   href,
+  cta,
 }: {
   title: string;
   subtitle: string;
   bullets: string[];
   href: string;
+  cta: string;
 }) {
   return (
     <div
       className="
-        w-full max-w-md rounded-xl border border-white/10
-        bg-[var(--color-black-light)] p-6 shadow-lg
-        transition-all hover:border-[var(--color-gold-light)]
+        w-full max-w-md rounded-xl p-6
+        bg-[var(--color-black-light)]
+        border border-white/10
+        shadow-lg transition-all
+        hover:border-[var(--color-gold-light)]
       "
     >
       <div>
-        <div className="text-xs font-semibold uppercase tracking-wide text-[var(--color-gold-light)]">
+        <div className="text-xs uppercase font-semibold tracking-wide text-[var(--color-gold-light)]">
           {subtitle}
         </div>
-        <h3 className="mt-1 text-xl font-semibold text-white">{title}</h3>
+        <h3 className="mt-1 text-xl font-semibold text-gray-lighter">
+          {title}
+        </h3>
       </div>
 
-      <ul className="mt-4 space-y-2 text-sm text-white/80">
+      <ul className="mt-4 space-y-3 text-sm text-gray">
         {bullets.map((b, i) => (
           <li key={i} className="flex items-start gap-3">
-            <span className="mt-1 inline-block h-2 w-2 flex-none rounded-full bg-[var(--color-gold-light)]" />
+            <span className="mt-1 inline-block h-2 w-2 flex-none rounded-sm bg-[var(--color-gold-light)]" />
             <span>{b}</span>
           </li>
         ))}
@@ -112,13 +119,14 @@ function PersonaCard({
       <Link
         href={href}
         className="
-          mt-5 inline-flex items-center gap-2 rounded-md
-          bg-[var(--color-green)] px-4 py-2 text-sm font-semibold text-black
+          mt-6 inline-flex items-center gap-2 rounded-md 
+          bg-[var(--color-green)]
+          px-4 py-2 text-sm font-semibold text-black
           hover:bg-[var(--color-green-dark)]
           transition-colors
         "
       >
-        Learn more →
+        {cta} →
       </Link>
     </div>
   );

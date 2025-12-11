@@ -63,7 +63,9 @@ export default function RetailersPage() {
       {/* How It Works */}
       <section className="py-20 px-6 bg-[var(--color-black-light)]/40 border-t border-white/10">
         <div className="mx-auto max-w-screen-xl">
-          <h2 className="text-3xl font-semibold mb-12">How It Works</h2>
+          <h2 className="text-gray-lighter text-3xl font-semibold mb-12">
+            How It Works
+          </h2>
 
           <div className="grid gap-10 md:grid-cols-4">
             {[
@@ -92,11 +94,13 @@ export default function RetailersPage() {
                 key={i}
                 className="group rounded-2xl border border-white/10 bg-white/5 p-6 shadow-md backdrop-blur-sm hover:-translate-y-1 transition"
               >
-                <div className="text-4xl font-bold text-[var(--color-green)] mb-4 opacity-80">
+                <div className="text-4xl font-bold text-green mb-4 opacity-80">
                   {s.step}
                 </div>
-                <h3 className="text-xl font-semibold mb-3">{s.title}</h3>
-                <p className="text-sm text-white/80">{s.text}</p>
+                <h3 className="text-gray-lighter text-xl font-semibold mb-3">
+                  {s.title}
+                </h3>
+                <p className="text-sm text-gray">{s.text}</p>
               </div>
             ))}
           </div>

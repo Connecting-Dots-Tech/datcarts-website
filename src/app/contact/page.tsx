@@ -27,9 +27,9 @@ const CONTACT_INFO = [
     title: "Phone Number",
     content: (
       <>
-        +91 790 777 2742
+        +91 987 144 4710
         <br />
-        +91 9544 056 839
+        +91 954 405 6839
       </>
     ),
     textColor: "text-white",
@@ -92,10 +92,10 @@ export default function Contact() {
       <div className="flex w-full flex-col items-center gap-20 bg-[url('/assets/bgherodesk.svg')] bg-cover bg-center py-8 max-md:gap-8 max-md:py-4">
         {/* Header Section */}
         <div className="flex flex-col items-center px-4 text-center">
-          <h2 className="mb-4 text-3xl font-semibold text-white max-md:text-xl">
+          <h2 className="mb-4 text-3xl font-semibold text-gray-lighter max-md:text-xl">
             Drop us a line!
           </h2>
-          <p className="max-w-lg font-light leading-relaxed text-[#d6e6d6] max-md:text-sm">
+          <p className="max-w-lg font-light leading-relaxed text-gray-light max-md:text-sm">
             Get in touch with us effortlessly through our Contact page! Whether
             you have questions, feedback, or need assistance, we're here to
             help. Reach out to us via the form or email.

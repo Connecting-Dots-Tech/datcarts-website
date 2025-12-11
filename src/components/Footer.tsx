@@ -18,7 +18,7 @@ const LEGAL_LINKS = [
 const CONTACT_INFO = {
   address: ["Mettungal, Manakkapady", "Ernakulam, Kerala 683520"],
   email: "info@datcarts.com",
-  phone: "+91 790 777 2742",
+  phone: "+91 987 144 4710",
 } as const;
 
 const SOCIAL_LINKS = [
