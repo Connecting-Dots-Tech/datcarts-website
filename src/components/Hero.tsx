@@ -62,7 +62,7 @@ export default function Hero() {
               <div className="aspect-video w-full">
                 <iframe
                   className="h-full w-full"
-                  src="https://www.youtube.com/embed/ZIzf3r2bonc"
+                  src="https://www.youtube.com/embed/u-8xQveKPsY"
                   title="Datcarts Demo Video"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
